@@ -8,7 +8,7 @@
 
 
     <groupId>org.asgard</groupId>
-    <artifactId>nio-samples</artifactId>
+    <artifactId>java-samples</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -22,6 +22,11 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit-jupiter.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webflux</artifactId>
+            <version>5.3.9</version>
         </dependency>
     </dependencies>
     <build>
